@@ -10,6 +10,8 @@ VuePress是一个基于Vue驱动的静态网站生成器
 
 - 文档：[https://v1.vuepress.vuejs.org/zh/](https://v1.vuepress.vuejs.org/zh/)
 - github: [https://github.com/vuejs/vuepress](https://github.com/vuejs/vuepress)
+- vuepress-deploy: [https://github.com/jenkey2011/vuepress-deploy/
+](https://github.com/jenkey2011/vuepress-deploy/)
 
 安装
 
@@ -92,7 +94,4 @@ jobs:
 ```
 
 完整代码地址：[https://github.com/mouday/hello-vuepress](https://github.com/mouday/hello-vuepress)
-
-参考文章
-
-1. https://github.com/jenkey2011/vuepress-deploy/
+预览地址：[https://mouday.github.io/hello-vuepress](https://mouday.github.io/hello-vuepress)
