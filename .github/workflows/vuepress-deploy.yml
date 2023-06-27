@@ -1,4 +1,6 @@
-# doc https://github.com/jenkey2011/vuepress-deploy/
+# 参考资料
+# https://github.com/jenkey2011/vuepress-deploy/
+# https://docs.github.com/zh/actions/security-guides/automatic-token-authentication#permissions-for-the-github_token
 
 name: Build and Deploy
 on: [push]
