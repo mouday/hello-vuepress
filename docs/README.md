@@ -6,6 +6,11 @@
 
 VuePress是一个基于Vue驱动的静态网站生成器
 
+相关资料
+
+- 文档：[https://v1.vuepress.vuejs.org/zh/](https://v1.vuepress.vuejs.org/zh/)
+- github: [https://github.com/vuejs/vuepress](https://github.com/vuejs/vuepress)
+
 安装
 
 ```bash
