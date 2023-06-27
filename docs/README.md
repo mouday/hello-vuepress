@@ -82,8 +82,12 @@ jobs:
         ACCESS_TOKEN: ${{ secrets.GH_TOKEN }}
         TARGET_REPO: ${{ env.GITHUB_REPOSITORY }}
         TARGET_BRANCH: dist
-        BUILD_SCRIPT: pnpm i && pnpm build
+        BUILD_SCRIPT: yarn && yarn build
         BUILD_DIR: docs/.vuepress/dist
 ```
 
-https://github.com/jenkey2011/vuepress-deploy/
+完整代码地址：[https://github.com/mouday/hello-vuepress](https://github.com/mouday/hello-vuepress)
+
+参考文章
+
+1. https://github.com/jenkey2011/vuepress-deploy/
