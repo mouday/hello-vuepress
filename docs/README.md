@@ -35,6 +35,20 @@ $ tree -I node_modules -a
 └── pnpm-lock.yaml
 ```
 
+依赖配置 package.json
+
+```json
+{
+  "scripts": {
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs"
+  },
+  "dependencies": {
+    "vuepress": "^1.9.9"
+  }
+}
+```
+
 站点配置config.js
 
 ```js
@@ -94,5 +108,6 @@ jobs:
         BUILD_DIR: docs/.vuepress/dist
 ```
 
-完整代码地址：[https://github.com/mouday/hello-vuepress](https://github.com/mouday/hello-vuepress)
-预览地址：[https://mouday.github.io/hello-vuepress](https://mouday.github.io/hello-vuepress)
+- 完整代码地址：[https://github.com/mouday/hello-vuepress](https://github.com/mouday/hello-vuepress)
+- 预览地址：[https://mouday.github.io/hello-vuepress](https://mouday.github.io/hello-vuepress)
+- 原文地址：[使用VuePress生成静态网站并部署到github](https://blog.csdn.net/mouday/article/details/131412189)
