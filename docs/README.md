@@ -2,7 +2,7 @@
 
 [[toc]]
 
-# 第一步 安装VitePress
+# 第一步 安装VuePress
 
 VuePress是一个基于Vue驱动的静态网站生成器
 
