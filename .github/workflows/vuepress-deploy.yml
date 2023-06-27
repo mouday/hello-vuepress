@@ -3,11 +3,6 @@
 name: Build and Deploy
 on: [push]
 
-permissions:
-  pull-requests: write
-  issues: write
-  repository-projects: write
-
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
@@ -18,7 +13,7 @@ jobs:
     - name: vuepress-deploy
       uses: jenkey2011/vuepress-deploy@master
       env:
-        ACCESS_TOKEN: ${{ secrets.GH_TOKEN }}
+        ACCESS_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         TARGET_REPO: ${{ env.GITHUB_REPOSITORY }}
         TARGET_BRANCH: dist
         BUILD_SCRIPT: yarn && yarn build
